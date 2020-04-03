@@ -1,0 +1,21 @@
+{
+  "env": {
+      "browser": true,
+      "es6": true,
+      "jest": true
+    },
+    
+  "extends": "react-app",
+
+  "rules": {
+    "indent": ["error", 2],
+    "jsx-quotes": "error",
+    "key-spacing": "error",
+    "keyword-spacing": "off",
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "lines-around-comment": "error"
+  }
+}
