@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from './_BoardComponent.styl'
+import'./_BoardComponent.styl'
 
-export const BoardComponent = () => <div className="styles.board">
+export const BoardComponent = () => <div className={'board'}>
   <div>
     <p>Im the board</p>
   </div>
