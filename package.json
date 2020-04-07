@@ -12,8 +12,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "build-css": "stylus -c src/static/stylus/ --out src/static/css",
-    "watch-css": "npm run build-css && stylus -c -w src/static/stylus/ --out src/static/css",
+    "build-css": "stylus -c src/***/**/*.styl --out src/static/css",
+    "watch-css": "npm run build-css && stylus -c -w src/***/**/*.styl --out src/static/css",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
