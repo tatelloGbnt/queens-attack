@@ -42,44 +42,6 @@ Here you can find information related to the technology used in FE:
 - `npm install` to install dependencies
 - `npm start` to run the project
 
-**Note: _Install and Configure Stylus_**
-
-**Install Stylus**
-
-1.- Install stylus globaly:
-
-```npm install create-react-app-stylus --save-dev```
-
-2.- Replace your `start`, `watch` and `build` scripts in your package.json:
-
-```
-scripts": {
-    "build-css": "stylus -c src/***/**/*.styl --out src/static/css",
-    "watch-css": "npm run build-css && stylus -c -w src/***/**/*.styl --out src/static/css",
-    "start-js": "react-scripts start",
-    "start": "npm-run-all -p watch-css start-js",
-    "build-js": "react-scripts build",
-    "build": "npm-run-all build-css build-js",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  }
-```
-
-3.- Create `static/stylus` folder
-
-4.- Execute ```npm start``` to compile the instructions
-
-5.- It  Generate ```css``` folder containing all the .css files within your project
-
-```
-src/static/
-        -----css
-        -----stylus
-```
-
-
-6.- Import your `main.css` class to `index.js`:  `import './static/css/main.css`
-
 ## Some Configuration
 
 **Eslint configuration**
