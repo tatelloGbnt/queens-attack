@@ -3,4 +3,5 @@ node_modules
 package-lock.json
 *.css
 bundle.map
-./idea
+.idea
+src/static/css/*.map
