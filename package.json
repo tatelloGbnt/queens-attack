@@ -13,8 +13,8 @@
     "source-map-explorer": "^2.4.2"
   },
   "scripts": {
-    "build-css": "stylus -c -m src/components/**/*.styl --out src/static/css ",
-    "watch-css": "npm run build-css && stylus -c -w -m src/components/**/*.styl --out src/static/css",
+    "build-css": "stylus -c -m src/***/**/*.styl --out src/static/css ",
+    "watch-css": "npm run build-css && stylus -c -w -m src/***/**/*.styl --out src/static/css",
     "start-js": "react-app-rewired start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-app-rewired build",

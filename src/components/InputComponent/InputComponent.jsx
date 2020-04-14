@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import'./_InputComponent.styl'
-
 export const InputComponent = ({name, value, disabled, type, placeholder, onChange, label}) => <div className={'input'}>
   {label && <label>{label}</label>}
   <input
