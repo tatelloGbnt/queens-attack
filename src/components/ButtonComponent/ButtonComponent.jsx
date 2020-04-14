@@ -16,11 +16,11 @@ ButtonComponent.propTypes = {
   disabled: PropTypes.bool,
 
 }
+
 ButtonComponent.defaultProps = {
   text: '',
   disabled: false,
   onClick: () => { console.log('click default') },
-
 }
 
 export default ButtonComponent
