@@ -2,7 +2,7 @@ module.exports = {
   webpack: (config, env) => {
     if (env === 'development') {
       config.module.rules.push({
-        test: /\.(js|mjs|jsx|ts|tsx)$/,
+        test: /\.(js|jsx|.styl)$/,
         use: ['source-map-loader'],
         enforce: 'pre',
       });
