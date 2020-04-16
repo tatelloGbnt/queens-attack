@@ -5,3 +5,5 @@ package-lock.json
 bundle.map
 .idea
 src/static/css/*.map
+bundle.map
+.idea/*
