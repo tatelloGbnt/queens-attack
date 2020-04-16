@@ -1,11 +1,11 @@
 import React from 'react';
-import BoardComponent from './components/BoardComponent'
+import QueenPage from './views/QueenView';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <BoardComponent/>
+        <QueenPage/>
       </header>
     </div>
   );
